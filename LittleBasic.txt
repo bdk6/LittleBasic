@@ -1,0 +1,54 @@
+LittleBasic
+20250727
+A smallish BASIC interpreter.
+
+Semi-optional line numbers
+Labels can replace line numbers
+
+Statements
+LET
+IF THEN ELSE
+FOR NEXT
+GOTO
+GOSUB
+RETURN
+PRINT
+INPUT
+DIM
+RANDOMIZE
+
+Functions:
+RND
+INT
+VAL
+LEFT$
+MID$
+RIGHT$
+
+
+Data Types:
+FLOAT
+INT
+STRING
+BOOLEAN
+
+Data Representation:
+FLOAT [-]{digit}.{digit} [E [-]digit{digit}]
+INT   [-]digit{digit}
+      &H hexdigit{hexdigit}
+      &B bindigit{bindigit}
+STRING  "{char}"
+BOOLEAN TRUE FALSE
+
+Operators:
++
+-
+*
+/ 
+**
+MOD
+AND
+OR
+NOT
+unary -
+
